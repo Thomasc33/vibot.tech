@@ -7,7 +7,8 @@ const ISDEVENVIRONMENT = botSettings.DevEnvironment;
 const CLIENT_ID = botSettings.clientID;
 const redirectURL = ISDEVENVIRONMENT ? botSettings.testingRedirectURL : botSettings.redirectURL
 const redirectURI = encodeURIComponent(redirectURL)
-const loginLink = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${redirectURI}&response_type=code&scope=identify`
+const loginLink = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&response_type=code&redirect_uri=${redirectURI}&scope=identify`
+
 
 
 const LoginPage = () => {

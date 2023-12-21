@@ -1,2 +1,8 @@
-{   
+{
+    "DevEnvironment": true,
+    "testingRedirectURL": "http://localhost:3001/auth",
+    "redirectURL": "https://vibot.tech/auth",
+    "clientID": "589996847083290629",
+    "vibotAPI": "https://a.vibot.tech/api",
+    "devViBotAPI": "https://a.vibot.tech/api"
 }

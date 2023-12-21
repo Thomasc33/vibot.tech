@@ -1,7 +1,11 @@
 import axios from "axios"
+import decryptData from "../api/Decrypt";
+import Cookies from "js-cookie";
 
 export const useCheckAuth = () => {
     let isLoggedIn = false;
+
+    // const 
 
     if (!Object.keys(localStorage).includes("discordAuth")) {
         return { isLoggedIn };
