@@ -11,7 +11,7 @@ const UserNavDropDown = ({ setDarkMode }) => {
     const menuItemStyle    = `menu-item                     ${!darkMode ? "menu-light" : "dark-menu"}`;
     const menuContentStyle = `menu-content                  ${!darkMode ? "bg-menu-light" : "bg-menu-dark"}`;
 
-    const [ username, setUsername ] = useState(null);
+    const [ username, setUsername ] = useState("");
 
     useEffect(() => { 
         const discordAuth = JSON.parse(localStorage.getItem("discordAuth"));
