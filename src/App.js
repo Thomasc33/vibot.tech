@@ -16,7 +16,7 @@ const App = () => {
       <AuthButton />
       <Routes>
         <Route exact path="/"      element={<LoadPage />}>
-          <Route index             element={<Home />} />
+          <Route index             element={<ProtectedElement><Home /></ProtectedElement>} />
           <Route path="/settings"  element={<ProtectedElement><Settings /></ProtectedElement>} />
           <Route path="/templates" element={<ProtectedElement><Templates /></ProtectedElement>} />
           <Route path="/logs"      element={<ProtectedElement><Logs /></ProtectedElement>} />
