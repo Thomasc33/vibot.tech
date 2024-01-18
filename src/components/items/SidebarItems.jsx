@@ -162,5 +162,29 @@ export const SidebarItems =
                 content: < LogOutPage />,
             }
         ]
+    },
+    "afks": {
+        "items": [ 
+
+            {
+                id: 0,
+                name: "Raid Status Announcements",
+                key: "nav-AfkChecks",
+                link: "/afkchecks",
+                content: <Sections />,
+
+            },
+            {
+                id: 1,
+                name: "Veteran Status Announcements",
+                key: "nav-AfkChecks",
+                link: "/afkchecks",
+                content: <Sections />,
+
+            }
+
+
+        ]
+
     }
 }

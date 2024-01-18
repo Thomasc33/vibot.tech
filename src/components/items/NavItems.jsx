@@ -24,4 +24,12 @@ export const NavItems = [
         link: "/logs",
         content: <Logs />,
     },
+    ,
+    {
+        id: 3,
+        name: "AFK Checks",
+        key: "nav-afkchecks",
+        link: "/afkchecks",
+        content: ""
+    }
 ]
